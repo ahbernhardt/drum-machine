@@ -1,0 +1,33 @@
+.footer {
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    padding-bottom: 1em;
+}
+
+.footer span {
+    display: inline-block;
+    margin: 0.5rem;
+}
+
+.footer p {
+    margin-top: 0.5rem;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    border-bottom: 1px solid transparent;
+    transition: all 0.5s ease-out;
+}
+
+.footer-link i {
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+
+.footer-link:hover {
+    border-bottom: 1px solid #f1c40f;
+}

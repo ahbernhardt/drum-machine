@@ -1,0 +1,11 @@
+body {
+  height: 100%;
+  background:-webkit-linear-gradient(45deg, #FF8072, #2700A6);
+  background: linear-gradient(45deg, #FF8072, #2700A6);
+  overflow: hidden;
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+code {
+  font-family: Lato, sans-serif;
+}
