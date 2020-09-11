@@ -93,7 +93,7 @@ class App extends Component {
     const { kit, display, volume, power, currentKit  } = this.state;
     return (
       <main >
-        <h1 className="text-content">FCC: Drum Machine 🎛️</h1>
+        <h1 className="text-content">FCC: Drum Machine <span role="img" aria-label="control"> 🎛️</span></h1>
         <div className="container">
           <div className="machine" id="drum-machine">
             <Display display={display} />

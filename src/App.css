@@ -11,7 +11,7 @@ main {
 
 .container {
     width: 30%;
-    height: 65vh;
+    height: 54%;
     z-index: 2;
     position: relative;
     overflow: hidden;
@@ -47,6 +47,10 @@ main {
     font-size: 3vw;
     line-height: 1;
     margin: 20px 0;
+}
+
+.text-content span{
+    margin-left: 0.5rem;
 }
 
 

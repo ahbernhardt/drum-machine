@@ -3,7 +3,6 @@ import './DrumPadHolder.css'
 import DrumPad from '../DrumPad/DrumPad'
 
 class DrumPadHolder extends Component {
-
     render() {
         let kit = this.props.kit.map((drumPad,i) => {
             return (

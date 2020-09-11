@@ -1,7 +1,6 @@
 body {
   height: 100%;
-  background:-webkit-linear-gradient(45deg, #FF8072, #2700A6);
-  background: linear-gradient(45deg, #FF8072, #2700A6);
+  background:linear-gradient(120deg, #F36265, #3425AF);
   overflow: hidden;
   font-family: "Lato", Arial, Helvetica, sans-serif;
 }
