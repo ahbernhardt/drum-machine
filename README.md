@@ -10,7 +10,7 @@ This project was built with React.
 
 ## Screenshot
 
-![drum-screenshot](https://github.com/anguyen0208/images/blob/master/Screen%20Shot%202020-08-18%20at%205.05.43%20PM.png)
+![drum-screenshot](https://github.com/anguyen0208/images/blob/master/FCC-Drum-Machine.png)
 
 ## Objective
 
