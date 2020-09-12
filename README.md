@@ -1,6 +1,6 @@
-# markdown-previewer
+# Drum Machine
 
-Build a Markdown Previewer. This is the third project of [FreeCodeCamp Front End Libraries Certification](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-drum-machine/).
+Build a Drum Machine. This is the third project of [FreeCodeCamp Front End Libraries Certification](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-drum-machine/).
 
 This project was built with React.
 
@@ -10,7 +10,7 @@ This project was built with React.
 
 ## Screenshot
 
-![drum-screenshot](https://github.com/anguyen0208/images/blob/master/FCC-Drum-Machine.png)
+![drum-screenshot](https://github.com/anguyen0208/Project-Screenshots/blob/master/FCC-Drum-Machine.png)
 
 ## Objective
 
@@ -36,15 +36,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `react-scripts start`
+### `npm start`
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-### `react-scripts test`
+### `npm test`
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `react-scripts build`
+### `npm build`
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
