@@ -6,11 +6,14 @@ class Controller extends Component {
         return (
             <div className="switches-container">
                 <div className="power-section">
-                <span className="switch-name">Power</span>
-                <label className="switch">
-                    <input type="checkbox" checked={this.props.power} onChange={this.props.updatePower} />
-                    <span className="switch-slider"/>
-                </label>
+                    <span className="switch-name">Power</span>
+                    <label className="switch">
+                        <input
+                            type="checkbox"
+                            checked={this.props.power}
+                            onChange={this.props.updatePower} />
+                        <span className="switch-slider"/>
+                    </label>
                 </div>
                 <div className="volume-section">
                     <span className="switch-name">Volume</span>
