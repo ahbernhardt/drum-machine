@@ -12,7 +12,9 @@ class Controller extends Component {
                             type="checkbox"
                             checked={this.props.power}
                             onChange={this.props.updatePower} />
+
                         <span className="switch-slider"/>
+
                     </label>
                 </div>
                 <div className="volume-section">
