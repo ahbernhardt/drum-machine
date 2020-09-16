@@ -1,6 +1,6 @@
 .display-panel{
     height: 1.5rem;
-    width: 91%;
+    width: revert;
     padding: 1rem;
     margin-bottom: 0.5em;
     text-align: center;

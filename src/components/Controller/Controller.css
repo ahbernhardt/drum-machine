@@ -1,5 +1,6 @@
 .switches-container{
-  display: flex;
+  width: revert;
+  display: inline-flex;
   padding: 0.3rem 0;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3),
   0 -2px 4px 0 rgba(0, 0, 0, .2);
@@ -14,7 +15,7 @@
 }
 
 .power-section{
-  width: 20%;
+  width: revert;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -23,7 +24,7 @@
 }
 
 .volume-section{
-  width: 60%;
+  width: revert;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +33,7 @@
 }
 
 .kit-section{
-  width: 20%;
+  width: revert;
   display: flex;
   justify-content: center;
   align-items: center;

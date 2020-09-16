@@ -95,7 +95,7 @@ class App extends Component {
       <main >
         <h1 className="text-content">FCC: Drum Machine <span role="img" aria-label="control"> 🎛️</span></h1>
         <div className="container">
-          <div className="machine" id="drum-machine">
+        {/*  <div className="machine" id="drum-machine">*/}
             <Display display={display} />
             <DrumPadHolder
               kit={kit}
@@ -112,7 +112,7 @@ class App extends Component {
               updateKit={this.updateKit}
             />
           </div>
-        </div>
+        {/*</div>*/}
         <Footer/>
       </main>
     );
