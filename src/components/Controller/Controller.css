@@ -5,6 +5,7 @@
   0 -2px 4px 0 rgba(0, 0, 0, .2);
   border-radius: .5rem;
   position: relative;
+  z-index: 3;
 }
 
 .switch-name {
@@ -19,7 +20,6 @@
   align-items: center;
   flex-direction: column;
   position: relative;
-  z-index: 2;
 }
 
 .volume-section{
@@ -84,7 +84,7 @@ input:checked + .switch-slider:before {
     background-color: #FFFFFF;
     transition: .4s;
     border-radius: 30px;
-    z-index: 3;
+    z-index: 4;
   }
 
   .switch-slider .always-active {
