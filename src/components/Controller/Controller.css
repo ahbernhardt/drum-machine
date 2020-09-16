@@ -116,7 +116,7 @@ input:checked + .switch-slider:before {
     left:3px;
     bottom: 3px;
     border-radius: 50%;
-    background-color: #FFFFFF;
+    color: #FFFFFF;
     opacity: 100%;
     cursor: pointer;
     z-index: 2;
