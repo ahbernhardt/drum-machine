@@ -28,15 +28,16 @@ class Controller extends Component {
                 </div>
                 <div className="kit-section">
                 <span className="switch-name">Kit</span>
-                <label className="switch" for="kit">
                     <input
                         type="checkbox"
-                        id="kit"
-                        name="kit"
+                        id="kit-switch"
+                        className="switch-checkbox"
                         checked={this.props.kit}
-                        onChange={this.props.updateKit} />
-                    <span className="switch-slider"/>
-                </label>
+                        onChange={this.props.updateKit}
+                    />
+                    <label className="switch-label" htmlFor="kit-switch">
+                        <span className="switch-button"/>
+                    </label>
                 </div>
             </div>
         );
