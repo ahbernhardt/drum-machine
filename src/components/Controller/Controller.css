@@ -179,6 +179,22 @@
   transform: translateX(24px);
 }
 
-.switch-label:active .switch-button {
+.switch-label:active .switch-button:before {
   width: 24px;
 }
+.switch-label .always-active {
+      opacity: 1;
+  }
+
+.switch-button:before {
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 24px;
+    left: 7px;
+    bottom: 3px;
+    background-color: #FFFFFF;
+    opacity: 100%;
+    transition: .4s;
+    border-radius: 50%;
+  }
