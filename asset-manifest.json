@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fcc-drum-machine/static/css/main.c79fb252.chunk.css",
+    "main.css": "/fcc-drum-machine/static/css/main.88c258c3.chunk.css",
     "main.js": "/fcc-drum-machine/static/js/main.3c58aa92.chunk.js",
     "main.js.map": "/fcc-drum-machine/static/js/main.3c58aa92.chunk.js.map",
     "runtime-main.js": "/fcc-drum-machine/static/js/runtime-main.64cf64a4.js",
@@ -8,15 +8,15 @@
     "static/js/2.3183fe7f.chunk.js": "/fcc-drum-machine/static/js/2.3183fe7f.chunk.js",
     "static/js/2.3183fe7f.chunk.js.map": "/fcc-drum-machine/static/js/2.3183fe7f.chunk.js.map",
     "index.html": "/fcc-drum-machine/index.html",
-    "precache-manifest.e96cfb64aaf42cfcf3929f9761764523.js": "/fcc-drum-machine/precache-manifest.e96cfb64aaf42cfcf3929f9761764523.js",
+    "precache-manifest.5346e52df11a5c36fa958b8e21f845fb.js": "/fcc-drum-machine/precache-manifest.5346e52df11a5c36fa958b8e21f845fb.js",
     "service-worker.js": "/fcc-drum-machine/service-worker.js",
-    "static/css/main.c79fb252.chunk.css.map": "/fcc-drum-machine/static/css/main.c79fb252.chunk.css.map",
+    "static/css/main.88c258c3.chunk.css.map": "/fcc-drum-machine/static/css/main.88c258c3.chunk.css.map",
     "static/js/2.3183fe7f.chunk.js.LICENSE.txt": "/fcc-drum-machine/static/js/2.3183fe7f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.64cf64a4.js",
     "static/js/2.3183fe7f.chunk.js",
-    "static/css/main.c79fb252.chunk.css",
+    "static/css/main.88c258c3.chunk.css",
     "static/js/main.3c58aa92.chunk.js"
   ]
 }
