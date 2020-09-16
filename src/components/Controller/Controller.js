@@ -13,7 +13,7 @@ class Controller extends Component {
                             checked={this.props.power}
                             onChange={this.props.updatePower} />
 
-                        <span className="switch-slider"/>
+                        <span id="switch-slider"/>
 
                     </label>
                 </div>
