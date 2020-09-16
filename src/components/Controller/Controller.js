@@ -7,15 +7,15 @@ class Controller extends Component {
             <div className="switches-container">
                 <div className="power-section">
                     <span className="switch-name">Power</span>
-                    <label className="switch" for="power">
-                        <input
-                            type="checkbox"
-                            id="power"
-                            className="switch-slider"
-                            checked={this.props.power}
-                            onChange={this.props.updatePower}
-                        />
-                        {/*<span className="switch-slider"/>*/}
+                    <input
+                        type="checkbox"
+                        id="power-switch"
+                        className="switch-checkbox"
+                        checked={this.props.power}
+                        onChange={this.props.updatePower}
+                    />
+                    <label className="switch-label" htmlFor="power-switch">
+                        <span className="switch-button"/>
                     </label>
                 </div>
 
