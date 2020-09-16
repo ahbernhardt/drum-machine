@@ -60,23 +60,31 @@ input:checked + .switch-slider:before {
   transform: translateX(24px);
 }
 
+.switch-slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 30px;
+  border-radius: 30px;
+  background-color: transparent;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3),
+  0 -2px 4px 0 rgba(0, 0, 0, .2);
+  -webkit-transition: 0.2s;
+  outline: none;
+}
   .switch-slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     appearance: none;
     width: 24px;
     height: 24px;
-    left:3px;
-    bottom: 3px;
+    left:0;
+    bottom: 0;
     top: 0;
     right: 0;
     border-radius: 50%;
     background-color: #FFFFFF;
     cursor: pointer;
     position: absolute;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3),
-    0 -2px 4px 0 rgba(0, 0, 0, .2);
     transition: .4s;
-    -webkit-transition: 0.2s;
   }
 
   .switch-slider .always-active {

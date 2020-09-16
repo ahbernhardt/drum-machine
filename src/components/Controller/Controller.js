@@ -11,11 +11,11 @@ class Controller extends Component {
                         <input
                             type="checkbox"
                             id="power"
-                            name="power"
+                            className="switch-slider"
                             checked={this.props.power}
                             onChange={this.props.updatePower}
                         />
-                        <span className="switch-slider"/>
+                        {/*<span className="switch-slider"/>*/}
                     </label>
                 </div>
 
