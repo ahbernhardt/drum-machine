@@ -61,7 +61,7 @@ input:checked + .switch-slider:before {
   transform: translateX(24px);
 }
 
-  .switch span{
+  .switch-slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -71,18 +71,6 @@ input:checked + .switch-slider:before {
     color: #CCCCCC;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3),
     0 -2px 4px 0 rgba(0, 0, 0, .2);
-    transition: .4s;
-    border-radius: 30px;
-  }
-
-  .switch-slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    color: #CCCCCC;
     transition: .4s;
     border-radius: 30px;
     z-index: 2;
