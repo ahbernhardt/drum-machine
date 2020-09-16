@@ -41,50 +41,73 @@
 }
 
 /* switch */
-.switch-checkbox {
-  height: 0;
-  width: 0;
-  visibility: hidden;
-}
+/*.switch{*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*    width: 60px;*/
+/*    height: 30px;*/
+/*  }*/
 
-.switch-label {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  cursor: pointer;
-  width: 60px;
-  height: 30px;
-  background: transparent;
-  border-radius: 100px;
-  position: relative;
-  transition: background-color .2s;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3),
-  0 -2px 4px 0 rgba(0, 0, 0, .2);
-}
+/*  .switch input {*/
+/*    display: none;*/
+/*  }*/
 
-.switch-label .switch-button {
-  content: '';
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  width: 24px;
-  height: 24px;
-  border-radius: 50%;
-  transition: 0.2s;
-  background: #ffffff;
-}
+/*input:checked + .switch-slider {*/
+/*      opacity: 1;*/
+/*  }*/
 
-.switch-checkbox:checked + .switch-label .react-switch-button {
-  left: calc(100% - 2px);
-  transform: translateX(-100%);
-}
+/*input:checked + .switch-slider:before {*/
+/*  transform: translateX(24px);*/
+/*}*/
 
-.switch-label:active .switch-button {
-  width: 60px;
-}
+/*.switch-slider {*/
+/*  -webkit-appearance: none;*/
+/*  width: 100%;*/
+/*  height: 30px;*/
+/*  border-radius: 30px;*/
+/*  background-color: transparent;*/
+/*  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3),*/
+/*  0 -2px 4px 0 rgba(0, 0, 0, .2);*/
+/*  -webkit-transition: 0.2s;*/
+/*  outline: none;*/
+/*}*/
+/*  .switch-slider::-webkit-slider-thumb {*/
+/*    -webkit-appearance: none;*/
+/*    appearance: none;*/
+/*    width: 24px;*/
+/*    height: 24px;*/
+/*    left:0;*/
+/*    bottom: 0;*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    border-radius: 50%;*/
+/*    background-color: #FFFFFF;*/
+/*    cursor: pointer;*/
+/*    position: absolute;*/
+/*    transition: .4s;*/
+/*  }*/
+
+/*  .switch-slider .always-active {*/
+/*      opacity: 1;*/
+/*  }*/
+
+/*  .switch-slider:before {*/
+/*    position: absolute;*/
+/*    content: "";*/
+/*    height: 24px;*/
+/*    width: 24px;*/
+/*    left: 7px;*/
+/*    bottom: 3px;*/
+/*    background-color: #FFFFFF;*/
+/*    opacity: 100%;*/
+/*    transition: .4s;*/
+/*    border-radius: 50%;*/
+/*  }*/
 
 
-/* Slider */
+
+
+  /* Slider */
   .slider {
     -webkit-appearance: none;
     width: 100%;
@@ -113,3 +136,49 @@
     cursor: pointer;
   }
 
+
+
+
+.switch-checkbox {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.switch-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 60px;
+  height: 30px;
+  background: transparent;
+  border-radius: 30px;
+  position: relative;
+  transition: background-color .2s;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3),
+  0 -2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.switch-label .switch-button {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  right: 2px;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  transition: 0.2s;
+  background: #ffffff;
+}
+
+.switch-checkbox:checked + .switch-label .react-switch-button {
+  left: calc(100% - 2px);
+  transform: translateX(24px);
+}
+
+.switch-label:active .switch-button {
+  width: 24px;
+}
