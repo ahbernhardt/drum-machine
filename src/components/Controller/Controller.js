@@ -10,12 +10,10 @@ class Controller extends Component {
                     <label className="switch">
                         <input
                             type="checkbox"
-                            className="switch-box"
                             checked={this.props.power}
-                            onChange={this.props.updatePower} />
-
+                            onChange={this.props.updatePower}
+                        />
                         <span className="switch-slider"/>
-
                     </label>
                 </div>
                 <div className="volume-section">
