@@ -60,19 +60,23 @@ input:checked + .switch-slider:before {
   transform: translateX(24px);
 }
 
-  .switch-slider {
-    position: absolute;
-    cursor: pointer;
+  .switch-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 24px;
+    height: 24px;
+    left:3px;
+    bottom: 3px;
     top: 0;
-    left: 0;
     right: 0;
-    bottom: 0;
-    color: #CCCCCC;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    position: absolute;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3),
     0 -2px 4px 0 rgba(0, 0, 0, .2);
     transition: .4s;
-    border-radius: 30px;
-    z-index: 2;
+    -webkit-transition: 0.2s;
   }
 
   .switch-slider .always-active {
@@ -90,7 +94,6 @@ input:checked + .switch-slider:before {
     opacity: 100%;
     transition: .4s;
     border-radius: 50%;
-    z-index: 2;
   }
 
   /* Slider */
