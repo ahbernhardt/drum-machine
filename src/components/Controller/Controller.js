@@ -21,11 +21,14 @@ class Controller extends Component {
 
                 <div className="volume-section">
                     <span className="switch-name">Volume</span>
-                    <input type="range" min="1" max="100"
-                           value={this.props.volume}
-                           className="slider" id="volume"
-                           onChange={this.props.updateVolume} />
+                    <div className="slider-container">
+                        <input type="range" min="1" max="100"
+                               value={this.props.volume}
+                               className="slider" id="volume"
+                               onChange={this.props.updateVolume} />
+                    </div>
                 </div>
+
                 <div className="kit-section">
                 <span className="switch-name">Kit</span>
                     <input
