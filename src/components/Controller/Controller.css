@@ -50,7 +50,7 @@
     height: 0;
   }
 
-  .switch span{
+  .switch-box{
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -65,7 +65,7 @@
     border-radius: 30px;
   }
 
-  .switch span.switch-slider {
+  .switch-slider {
     position: absolute;
     cursor: pointer;
     top: 0;
