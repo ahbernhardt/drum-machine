@@ -99,8 +99,10 @@ input:checked + .switch-slider:before {
     width: 100%;
     height: 30px;
     border-radius: 30px;
+    background-color: transparent;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .3),
     0 -2px 4px 0 rgba(0, 0, 0, .2);
+    -webkit-transition: 0.2s;
     outline: none;
   }
 
@@ -116,10 +118,7 @@ input:checked + .switch-slider:before {
     left:3px;
     bottom: 3px;
     border-radius: 50%;
-    color: #FFFFFF;
-    opacity: 100%;
+    background-color: #FFFFFF;
     cursor: pointer;
-    z-index: 2;
   }
-
 

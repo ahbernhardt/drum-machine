@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Proptypes from "prop-types"
 import './App.css';
 import sounds from './components/Sounds/Sounds';
 import DrumPadHolder from './components/DrumPadHolder/DrumPadHolder';
