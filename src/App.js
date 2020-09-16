@@ -94,7 +94,7 @@ class App extends Component {
     return (
       <main >
         <h1 className="text-content">FCC: Drum Machine <span role="img" aria-label="control"> 🎛️</span></h1>
-        <div className="container">
+        <div className="container" id="drum-machine">
         {/*  <div className="machine" id="drum-machine">*/}
             <Display display={display} />
             <DrumPadHolder
