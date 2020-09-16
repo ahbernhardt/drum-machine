@@ -5,7 +5,7 @@
   0 -2px 4px 0 rgba(0, 0, 0, .2);
   border-radius: .5rem;
   position: relative;
-  z-index: 3;
+  z-index: 2;
 }
 
 .switch-name {
@@ -72,7 +72,7 @@ input:checked + .switch-slider:before {
     0 -2px 4px 0 rgba(0, 0, 0, .2);
     transition: .4s;
     border-radius: 30px;
-    z-index: 5;
+    z-index: 2;
   }
 
   .switch-slider {
@@ -85,7 +85,7 @@ input:checked + .switch-slider:before {
     background-color: #FFFFFF;
     transition: .4s;
     border-radius: 30px;
-    z-index: 6;
+    z-index: 2;
   }
 
   .switch-slider .always-active {
@@ -133,6 +133,7 @@ input:checked + .switch-slider:before {
     background-color: #FFFFFF;
     opacity: 100%;
     cursor: pointer;
+    z-index: 2;
   }
 
 
