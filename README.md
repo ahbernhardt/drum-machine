@@ -1,6 +1,6 @@
 # Drum Machine
 
-Build a Drum Machine. This is the third project of [FreeCodeCamp Front End Libraries Certification](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-drum-machine/). The project was built with React.
+> Build a Drum Machine. This is the third project of [FreeCodeCamp Front End Libraries Certification](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-drum-machine/). The project was built with React.
 
 Check for [Live Demo](https://anhnguyen.page/fcc-drum-machine/)
 
@@ -10,11 +10,9 @@ Check for [Live Demo](https://anhnguyen.page/fcc-drum-machine/)
 
 ## Objective
 
-- [x] Build a [CodePen.io](https://codepen.io) app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/MJyNMd>.
+Build a [CodePen.io](https://codepen.io) app or other frontend framework that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/MJyNMd>.
 
-- [x] Fulfill the below user stories and get all the tests to pass. Give it your own personal style. 
-
-## User stories
+### User stories
 
 - [x] Should be able to see an outer container with a corresponding `id="drum-machine"` that contains all other elements.
 
