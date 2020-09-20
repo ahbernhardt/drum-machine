@@ -1,12 +1,8 @@
 # Drum Machine
 
-Build a Drum Machine. This is the third project of [FreeCodeCamp Front End Libraries Certification](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-drum-machine/).
+Build a Drum Machine. This is the third project of [FreeCodeCamp Front End Libraries Certification](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-drum-machine/). The project was built with React.
 
-This project was built with React.
-
-## Live Demonstration
-
-> <https://anguyen0208.github.io/fcc-drum-machine/>
+Check for [Live Demo](https://anhnguyen.page/fcc-drum-machine/)
 
 ## Screenshot
 
