@@ -4,7 +4,10 @@ import "./Footer.css";
 const Footer = () => (
     <footer className="footer">
         <p>
-            Anh Nguyen © 2020
+            © Copyright 2020 -
+            <a className="footer-link" href="https://github.com/anguyen0208" target="_blank" rel="noopener noreferrer">
+                anhnguyen.page
+            </a>
             <span> <span> </span>| </span>
             <span>
                 Repo Link: {'  '}
