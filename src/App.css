@@ -22,7 +22,7 @@ main {
 
 
 .text-content {
-    width: 45%;
+    width: 50%;
     display: flex;
     justify-content: center;
     padding: 0 50px;
@@ -34,7 +34,25 @@ main {
 }
 
 .text-content span{
-    margin-left: 0.5rem;
+    margin-left: 0.1rem;
 }
 
 
+@media only screen and (min-width: 375px){
+    .container{
+        width: 75%;
+    }
+    .text-content{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 325px){
+    .container{
+        width: 75%;
+    }
+    .text-content{
+        width: 100%;
+        font-size: 1rem;
+    }
+}
