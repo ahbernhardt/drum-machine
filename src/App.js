@@ -92,29 +92,27 @@ class App extends Component {
   render() {
     const { kit, display, volume, power, currentKit  } = this.state;
     return (
-      <main >
-        <h1 className="text-content">FCC: Drum Machine <span role="img" aria-label="control"> 🎛️</span></h1>
-        <div className="container" id="drum-machine">
-        {/*  <div className="machine" id="drum-machine">*/}
-            <Display display={display} />
-            <DrumPadHolder
-              kit={kit}
-              updateDisplay={text => this.updateDisplay(text)}
-              volume={volume}
-              power={power}
-            />
-            <Controller
-              volume={volume}
-              power={power}
-              kit={currentKit !== 'kitOne'}
-              updateVolume={this.updateVolume}
-              updatePower={this.updatePower}
-              updateKit={this.updateKit}
-            />
-          </div>
-        {/*</div>*/}
-        <Footer/>
-      </main>
+        <main >
+          <h1 className="text-content">FCC: Drum Machine <span role="img" aria-label="control">  <span> </span>🎛️</span></h1>
+          <div className="container">
+              <Display display={display} />
+              <DrumPadHolder
+                kit={kit}
+                updateDisplay={text => this.updateDisplay(text)}
+                volume={volume}
+                power={power}
+              />
+              <Controller
+                volume={volume}
+                power={power}
+                kit={currentKit !== 'kitOne'}
+                updateVolume={this.updateVolume}
+                updatePower={this.updatePower}
+                updateKit={this.updateKit}
+              />
+            </div>
+          <Footer/>
+        </main>
     );
   }
 }

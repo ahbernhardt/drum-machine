@@ -1,6 +1,7 @@
 #drum-pad-holder {
     display: flex;
-    width: 100%;
+    width: 325px;
+    margin: 0 auto 25px auto;
     flex-wrap: wrap;
     justify-content: space-between;
 }
