@@ -6,6 +6,7 @@ import Key from './classes/Key';
 import Controller from './components/Controller/Controller';
 import Display from './components/Display/Display';
 import Footer from './components/Footer/Footer';
+import {BrowserRouter as Router} from "react-router-dom";
 
 class App extends Component {
 

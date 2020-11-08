@@ -14,8 +14,8 @@ class Controller extends Component {
                         checked={this.props.power}
                         onChange={this.props.updatePower}
                     />
-                    <label className="switch-label" htmlFor="power-switch">
-                        <span className="switch-button"/>
+                    <label className="switch-label-power" htmlFor="power-switch">
+                        <span className="switch-button-power"/>
                     </label>
                 </div>
 
@@ -24,7 +24,7 @@ class Controller extends Component {
                     <div className="slider-container">
                         <input type="range" min="1" max="100"
                                value={this.props.volume}
-                               className="slider" id="volume"
+                               className="volume-slider" id="volume"
                                onChange={this.props.updateVolume} />
                     </div>
                 </div>
@@ -38,8 +38,8 @@ class Controller extends Component {
                         checked={this.props.kit}
                         onChange={this.props.updateKit}
                     />
-                    <label className="switch-label" htmlFor="kit-switch">
-                        <span className="switch-button"/>
+                    <label className="switch-label-kit" htmlFor="kit-switch">
+                        <span className="switch-button-kit"/>
                     </label>
                 </div>
             </div>

@@ -10,13 +10,12 @@ main {
     margin-top: 0;
 }
 
-
 .text-content {
     display: flex;
     justify-content: center;
     color: #FFFFFF;
     font-family: "Oswald", sans-serif;
-    font-size: 48px;
+    font-size: 2vm;
     line-height: 1;
     margin: 0 0;
 }
