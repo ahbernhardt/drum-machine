@@ -6,7 +6,6 @@ import Key from './classes/Key';
 import Controller from './components/Controller/Controller';
 import Display from './components/Display/Display';
 import Footer from './components/Footer/Footer';
-import {BrowserRouter as Router} from "react-router-dom";
 
 class App extends Component {
 
@@ -81,7 +80,7 @@ class App extends Component {
 
   }
 
-  componentDidUpdate(prevProps, prevState) {
+  componentDidUpdate(prevProps, prevState, Snapshot) {
     if (prevState.currentKit !== this.state.currentKit) {
       this.setState({
         kit: this.getKit(this.state.currentKit)

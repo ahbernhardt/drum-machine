@@ -1,15 +1,15 @@
 #drum-pad-holder {
     display: flex;
     width: 325px;
-    margin: 0 auto 25px auto;
+    margin: 0 auto 15px auto;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 #drum-pad-holder > .drum-pad {
     width: 30%;
-    padding-top: 12px;
-    margin: 0.3rem 0 0.3em 0;
+    padding-top: 15px;
+    margin: 0.2rem 0 0.3em 0;
     height: 45px;
     color: #CCCCCC;
     text-align: center;

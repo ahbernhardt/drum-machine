@@ -10,14 +10,19 @@ main {
     margin-top: 0;
 }
 
+h1{
+    color: #FFFFFF;
+    font-family: "Oswald", sans-serif;
+    font-size: 48px;
+    line-height: 1;
+}
 .text-content {
     display: flex;
     justify-content: center;
     color: #FFFFFF;
     font-family: "Oswald", sans-serif;
-    font-size: 2vm;
+    font-size: 48px;
     line-height: 1;
-    margin: 0 0;
 }
 
 .text-content span{
@@ -26,7 +31,7 @@ main {
 
 .container {
     width: 275px;
-    height: 50%;
+    height: 355px;
     z-index: 1;
     overflow: hidden;
     background-size: cover;
