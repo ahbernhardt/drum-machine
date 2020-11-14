@@ -17,8 +17,8 @@ Checkout for [Live Demo](https://anguyen0208.github.io/fcc-drum-machine/)
 ## Usage
 
 ```sh
-git clone https://github.com/anguyen0208/fcc-drum-machine.git
-cd fcc-drum-machine
+git clone https://github.com/anguyen0208/drum-machine.git
+cd drum-machine
 
 # install dependencies
 npm install
