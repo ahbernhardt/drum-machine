@@ -2,7 +2,7 @@
 
 > This is the third project of [FreeCodeCamp](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-drum-machine/) -  Front End Libraries Certification and I used [React](https://github.com/facebook/create-react-app) for building this application.
 
-Checkout for [Live Demo](https://anguyen0208.github.io/fcc-drum-machine/)
+Checkout for [Live Demo](https://anguyen0208.github.io/drum-machine/)
 
 ## Screenshot
 
