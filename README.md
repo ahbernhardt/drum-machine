@@ -2,11 +2,11 @@
 
 > This is the third project of [FreeCodeCamp](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-drum-machine/) -  Front End Libraries Certification and I used [React](https://github.com/facebook/create-react-app) for building this application.
 
-Checkout for [Live Demo](https://anguyen0208.github.io/drum-machine/)
+Checkout for [Live Demo](https://ahbernhardt.github.io/drum-machine/)
 
 ## Screenshot
 
-![drum-screenshot](https://github.com/anguyen0208/Project-Screenshots/blob/master/FCC-Drum-Machine.png)
+![drum-screenshot](https://github.com/ahbernhardt/Project-Screenshots/blob/master/FCC-Drum-Machine.png)
 
 ## Objective
 
@@ -17,7 +17,7 @@ Checkout for [Live Demo](https://anguyen0208.github.io/drum-machine/)
 ## Usage
 
 ```sh
-git clone https://github.com/anguyen0208/drum-machine.git
+git clone https://github.com/ahbernhardt/drum-machine.git
 cd drum-machine
 
 # install dependencies
